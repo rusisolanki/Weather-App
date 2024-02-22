@@ -12,6 +12,7 @@
     width: 90%;
     margin: auto;
     color: white;
+    margin-bottom: 0;
 }
 
 table{
@@ -57,11 +58,13 @@ td{
 
 .weatherInfo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
     margin-bottom:50px;
     color: white;
     flex-wrap: wrap;
-    row-gap: 30px;
+    row-gap: 40px;
 }
 
 .infoBox{
@@ -70,7 +73,7 @@ td{
     width: 150px;
     height: 100px;
     padding: 0 20px;
-
+    flex-basis: 25% ;
 }
 .heading{
     font-size: 1.2em;
