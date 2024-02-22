@@ -1,10 +1,6 @@
-
 .main{
     display: flex;
-
-
 }
-
 .container{
     width: 100%;
     display: flex;
@@ -45,7 +41,6 @@ th{
     border-bottom: 2px solid rgba(0, 0, 0, 0.099);
     font-weight: 300;
     font-size: 1.2em;
-    /* color:#748BF1 ; */
 }
 
 .tableData{
