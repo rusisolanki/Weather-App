@@ -1,0 +1,88 @@
+
+.main{
+    display: flex;
+
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3; 
+}
+
+.table{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+table{
+    background-color: #748BF1;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.099);
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+th{
+    height: 45px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.099);
+    font-weight: 300;
+    font-size: 1.2em;
+    /* color:#748BF1 ; */
+}
+
+.tableData{
+    height: 35px;
+}
+
+td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+    font-size: 1.2em;
+}
+.delete{
+    width: 15%;
+}
+
+.weatherInfo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+    color: white;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.infoBox{
+    background-color: #748BF1;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    padding: 0 20px;
+
+}
+.heading{
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: 300;
+}
+.para{
+    font-size: 1.7em;
+    margin: 20px 0;
+}
